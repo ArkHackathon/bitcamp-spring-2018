@@ -6,4 +6,7 @@ db:
 username: admin
 password: UWTWZgGtMQfddpwg
 
+rpi: motodb2.local
+username: moto
+password: kcI1EAddSm8KWuuK
 
