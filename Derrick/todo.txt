@@ -1,0 +1,6 @@
+1) make web server
+2) make webpage and dashboard
+3) Design HUD display
+4) Maybe implement threejs and webvr
+5) put motorcycle data in new ARKio blockhain
+6) Maybe do some Esri integration
