@@ -1,14 +1,10 @@
-import flask
+var express = require('express');
+var app = express();
+var path = require('path');
 
-app = flask.Flask(__name__)
+// viewed at http://localhost:8080
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/views/index.html'));
+});
 
-@app.route('/')
-def index():
-  '''Displays the index page available at /
-  '''
-  return flask.render_template('index.html')
-
-if __name__ == '__main__':
-  app.debug=True
-  app.run()
-
+app.listen(8080);

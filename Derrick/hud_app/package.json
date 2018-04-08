@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "colors": "0.x.x",
-    "express": "2.3.x",
-    "optimist": "0.2.x"
+    "express": "*"
   },
   "author": "Derrick",
   "license": "ISC"
