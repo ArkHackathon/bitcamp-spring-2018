@@ -6,5 +6,8 @@ var path = require('path');
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/views/index.html'));
 });
+app.use(express.static('static'))
 
-app.listen(8080);
+app.listen(8080, () => {
+	console.log('Commencing primary ignition')
+})
